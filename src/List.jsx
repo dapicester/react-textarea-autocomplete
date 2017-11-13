@@ -101,10 +101,10 @@ export default class List extends React.Component<ListProps, ListState> {
   };
 
   render() {
-    const { values, component } = this.props;
+    const { values, component, className } = this.props;
 
     return (
-      <ul className="rta__list">
+      <ul className={`rta__list ${className}`}>
         {values.map(item =>
           (<Item
             key={this.getId(item)}

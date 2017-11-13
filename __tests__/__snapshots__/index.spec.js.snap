@@ -51,6 +51,7 @@ ShallowWrapper {
       "_currentElement": <ReactTextareaAutocomplete
         className="ownClassName"
         containerStyle={undefined}
+        listClassName=""
         loadingComponent={[Function]}
         minChar={1}
         onChange={[Function]}
@@ -88,6 +89,7 @@ ShallowWrapper {
         "props": Object {
           "className": "ownClassName",
           "containerStyle": undefined,
+          "listClassName": "",
           "loadingComponent": [Function],
           "minChar": 1,
           "onChange": [Function],
@@ -184,6 +186,7 @@ ShallowWrapper {
   "unrendered": <ReactTextareaAutocomplete
     className="ownClassName"
     containerStyle={undefined}
+    listClassName=""
     loadingComponent={[Function]}
     minChar={1}
     onChange={[Function]}
@@ -258,6 +261,7 @@ ShallowWrapper {
       "_currentElement": <ReactTextareaAutocomplete
         className="ownClassName"
         containerStyle={undefined}
+        listClassName=""
         loadingComponent={[Function]}
         minChar={1}
         onChange={[Function]}
@@ -294,6 +298,7 @@ ShallowWrapper {
         "props": Object {
           "className": "ownClassName",
           "containerStyle": undefined,
+          "listClassName": "",
           "loadingComponent": [Function],
           "minChar": 1,
           "onChange": [Function],
@@ -389,6 +394,7 @@ ShallowWrapper {
   "unrendered": <ReactTextareaAutocomplete
     className="ownClassName"
     containerStyle={undefined}
+    listClassName=""
     loadingComponent={[Function]}
     minChar={1}
     onChange={[Function]}
@@ -462,6 +468,7 @@ ShallowWrapper {
       "_currentElement": <ReactTextareaAutocomplete
         className="ownClassName"
         containerStyle={undefined}
+        listClassName=""
         loadingComponent={[Function]}
         minChar={1}
         onChange={[Function]}
@@ -499,6 +506,7 @@ ShallowWrapper {
         "props": Object {
           "className": "ownClassName",
           "containerStyle": undefined,
+          "listClassName": "",
           "loadingComponent": [Function],
           "minChar": 1,
           "onChange": [Function],
@@ -595,6 +603,7 @@ ShallowWrapper {
   "unrendered": <ReactTextareaAutocomplete
     className="ownClassName"
     containerStyle={undefined}
+    listClassName=""
     loadingComponent={[Function]}
     minChar={1}
     onChange={[Function]}

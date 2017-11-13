@@ -21,6 +21,7 @@ class ReactTextareaAutocomplete extends React.Component<TextareaProps, TextareaS
     onChange: undefined,
     style: undefined,
     value: '',
+    listClassName: '',
   };
 
   constructor(props: TextareaProps) {
@@ -224,6 +225,7 @@ class ReactTextareaAutocomplete extends React.Component<TextareaProps, TextareaS
       'ref',
       'onChange',
       'className',
+      'listClassName',
       'value',
       'trigger',
     ];
@@ -300,6 +302,7 @@ class ReactTextareaAutocomplete extends React.Component<TextareaProps, TextareaS
       loadingComponent: Loader,
       style,
       containerStyle,
+      listClassName,
       ...otherProps
     } = this.props;
     const { left, top, dataLoading, component, value } = this.state;
@@ -330,6 +333,7 @@ class ReactTextareaAutocomplete extends React.Component<TextareaProps, TextareaS
                 component={component}
                 getTextToReplace={textToReplace}
                 onSelect={this.onSelect}
+                className={listClassName}
               />}
             {dataLoading &&
               <div
@@ -382,6 +386,7 @@ ReactTextareaAutocomplete.propTypes = {
   style: PropTypes.object,
   trigger: triggerPropsCheck, //eslint-disable-line
   value: PropTypes.string,
+  listClassName: PropTypes.string,
 };
 
 export default ReactTextareaAutocomplete;

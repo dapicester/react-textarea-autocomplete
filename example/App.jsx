@@ -13,6 +13,7 @@ class App extends Component {
       <div>
         <ReactTextareaAutocomplete
           className="my-textarea"
+          listClassName="dropdown-menu"
           loadingComponent={Loading}
           style={{
             fontSize: '18px',
